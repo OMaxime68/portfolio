@@ -14,7 +14,7 @@ const About = () => {
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__description">I am Bolby Doe, web developer from London, United Kingdom. I have rich experience in web site design and building and customization, also I am good at WordPress.</p>
-            <a href="" className="btn">My CV</a>
+            <a href="https://google.com" className="btn">My CV</a>
           </div>
 
           <div className="about__skills grid">
