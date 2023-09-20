@@ -3,20 +3,12 @@ import React from 'react'
 const HeaderSocials = () => {
   return (
     <div className="home__socials">
-        <a href="https://google.com" className="home__social-link" target='_blank' rel="noreferrer">
-        <i class="fa-brands fa-youtube"></i>
+        <a href="https://github.com/OMaxime68" className="home__social-link" target='_blank' rel="noreferrer">
+        <i class="fa-brands fa-github"></i>
         </a>
 
-        <a href="https://google.com" className="home__social-link" target='_blank' rel="noreferrer">
-        <i class="fa-brands fa-twitter"></i>
-        </a>
-
-        <a href="https://google.com" className="home__social-link" target='_blank' rel="noreferrer">
-        <i class="fa-brands fa-behance"></i>
-        </a>
-
-        <a href="https://google.com" className="home__social-link" target='_blank' rel="noreferrer">
-        <i class="fa-brands fa-dribble"></i>
+        <a href="https://www.linkedin.com/in/maxime-owaller-b366381a3/" className="home__social-link" target='_blank' rel="noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
         </a>
     </div>
   )

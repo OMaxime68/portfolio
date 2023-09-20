@@ -5,11 +5,11 @@
 :root {
   /*===== Colors =====*/
   /*Color mode HSL (hue, saturation, lightness)*/
-  --first-color: hsl(353, 100%, 65%);
-  --title-color: hsl(244, 24%, 26%);
-  --text-color: hsl(244, 16%, 43%);
-  --body-color: hsl(258, 60%, 98%);
-  --container-color: #fff;
+  --first-color: #3F72AF;
+  --title-color: #112D4E;
+  --text-color: #507C9A;
+  --body-color: #F2F2F5;
+  --container-color: #F9F7F7;
 
   /*===== Font and Typography =====*/
   /*.5rem = 8px | 1rem = 16px ...*/

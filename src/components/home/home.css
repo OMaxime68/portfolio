@@ -25,12 +25,13 @@
 .home__socials {
     display: flex;
     column-gap: 1.75rem;
-    margin: 1.5rem 0;
+    margin: 1.5rem 7rem;
+    justify-content: space-between;
 }
 
 .home__social-link {
     color: var(--title-color);
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     transition: .3s;
 }
 

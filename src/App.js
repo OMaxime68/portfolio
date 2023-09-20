@@ -17,12 +17,12 @@ function App() {
       <main className="main">
         <Home />
         <About />
-        <Services />
+        {/* <Services /> */}
         <Resume />
         <Portfolio />
-        <Pricing />
+        {/* <Pricing /> */}
         <Testimonials />
-        <Blog />
+        {/* <Blog /> */}
         <Contact />
       </main>
     </>
