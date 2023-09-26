@@ -11,13 +11,13 @@ const Resume = () => {
       <div className="resume__container grid">
         <div className="timeline grid">
           {Data.filter(val => val.category === 'education').map((val, id) => (
-            <Card key={id} icon={val.icon} title={val.title} year={val.year} desc={val.desc} />
+            <Card key={id} icon={val.icon} title={val.title} company={val.company} localisation={val.localisation} year={val.year} desc={val.desc} />
           ))}
         </div>
 
         <div className="timeline grid">
           {Data.filter(val => val.category === 'experience').map((val, index) => (
-            <Card key={index} icon={val.icon} title={val.title} year={val.year} desc={val.desc} />
+            <Card key={index} icon={val.icon} title={val.title} company={val.company} localisation={val.localisation} year={val.year} link={val.link} messageLink={val.messageLink} desc={val.desc} />
           ))}
         </div>
       </div>

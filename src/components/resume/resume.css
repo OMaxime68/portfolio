@@ -47,9 +47,43 @@
     font-size: var(--small-font-size);
 }
 
+.timeline__localisation {
+    color: var(--title-color);
+    font-size: var(--small-font-size);
+    padding-top: 0.5rem;
+}
+
 .timeline__title {
     font-size: var(--h3-font-size);
     margin: 0.5rem 0;
+}
+
+.timeline__company {
+    color: var(--first-color);
+    font-size: var(--normal-font-size);
+}
+
+.timeline__important {
+    color: var(--first-color);
+    font-weight: var(--font-semibold);
+}
+
+.timeline__list {
+    list-style-type: disc;
+    padding-left: 20px;
+    padding-top: 0.5rem;
+}
+
+.custom-link {
+    text-decoration: underline;
+    font-style: italic;
+    color: var(--title-color);
+    font-weight: var(--font-semibold);
+    transition: .3s;
+}
+
+.custom-link:hover {
+    color: hsl(353, 100%, 65%);
 }
 
 @media screen and (max-width: 1024px) {
