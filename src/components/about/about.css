@@ -1,5 +1,5 @@
 .about__container {
-    grid-template-columns: 3fr 9fr;
+    grid-template-columns: 3fr 15fr;
     column-gap: 1.875rem;
 }
 
@@ -33,6 +33,11 @@
 
 .about__skills {
     row-gap: 1.25rem;
+}
+
+.about__important {
+    color: var(--first-color);
+    font-weight: var(--font-semibold);
 }
 
 .skills__titles {
@@ -75,7 +80,7 @@
 }
 
 .photography {
-    width: 60%;
+    width: 70%;
     background-color: rgb(108, 108, 299);
 }
 

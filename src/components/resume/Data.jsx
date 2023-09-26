@@ -18,6 +18,7 @@ const Data = [
                 </ul>
             </div>
         ),
+        skills: ["fa-solid fa-c", "fa-brands fa-react", "fa-brands fa-vuejs", "fa-brands fa-html5", "fa-brands fa-css3-alt", "fa-brands fa-js", "fa-brands fa-node", "fa-solid fa-database"],
     },
     {
         id: 2,
@@ -38,6 +39,7 @@ const Data = [
                 </ul>
             </div>
         ),
+        skills: ["fa-brands fa-python", "fa-brands fa-java"],
     },
     {
         id: 3,
@@ -64,6 +66,7 @@ const Data = [
                 </ul>
             </div>
         ),
+        skills: ["fa-brands fa-react", "fa-brands fa-html5", "fa-brands fa-css3-alt", "fa-brands fa-js", "fa-brands fa-node", "fa-solid fa-database"],
     },
     {
         id: 5,
@@ -80,6 +83,7 @@ const Data = [
                 </ul>
             </div>
         ),
+        skills: ["fa-brands fa-python", "fa-solid fa-database"],
     },
     {
         id: 6,
@@ -100,6 +104,7 @@ const Data = [
                 </ul>
             </div>
         ),
+        skills: ["fa-brands fa-microsoft", "fa-solid fa-database"],
     },
     {
         id: 7,
@@ -119,6 +124,7 @@ const Data = [
                 </ul>
             </div>
         ),
+        skills: ["fa-brands fa-react", "fa-brands fa-html5", "fa-brands fa-css3-alt", "fa-brands fa-js", "fa-brands fa-node", "fa-solid fa-database"],
     },
 ];
 

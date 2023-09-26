@@ -96,7 +96,7 @@ const Contact = () => {
         <div className="contact__container grid">
           <div className="contact__info">
             <h3 className="contact__title">Let's talk about everything!</h3>
-            <p className="contact__details">Don't like forms? Send me an email at <a href="mailto:maximeowallerpro@gmail.com">maximeowallerpro@gmail.com</a>. 👋</p>
+            <p className="contact__details">Don't like forms?<br></br><br></br>Send me an email at <a href="mailto:maximeowallerpro@gmail.com">maximeowallerpro@gmail.com</a><br></br><br></br>Or give me a call at <a href="tel:+33695598748">+33 6 95 59 87 48</a>. 👋</p>
           </div>
 
           <form ref={form} onSubmit={sendEmail} className="contact__form">

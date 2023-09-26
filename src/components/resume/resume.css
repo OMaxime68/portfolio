@@ -74,10 +74,14 @@
     padding-top: 0.5rem;
 }
 
+.timeline__skills {
+
+}
+
 .custom-link {
     text-decoration: underline;
     font-style: italic;
-    color: var(--title-color);
+    color: blue;
     font-weight: var(--font-semibold);
     transition: .3s;
 }

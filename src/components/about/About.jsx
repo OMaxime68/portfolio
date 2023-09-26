@@ -13,7 +13,7 @@ const About = () => {
 
         <div className="about__data grid">
           <div className="about__info">
-            <p className="about__description">I am Bolby Doe, web developer from London, United Kingdom. I have rich experience in web site design and building and customization, also I am good at WordPress.</p>
+            <p className="about__description">In order to finalize my last year of studies in computer science, <span className='about__important'>I'm looking for an internship or a job starting in March 2023.</span> My aim is to develop my technical and theoretical skills to become an expert in this field. I'm constantly on the lookout for new challenges and I'm very determined and rigorous. I'm keen to learn from professionals.</p>
             <a href="https://google.com" className="btn">My CV</a>
           </div>
 
@@ -42,8 +42,8 @@ const About = () => {
 
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills__name">Photography</h3>
-                <span className="skills__number">60%</span>
+                <h3 className="skills__name">AI</h3>
+                <span className="skills__number">70%</span>
               </div>
 
               <div className="skills__bar">
