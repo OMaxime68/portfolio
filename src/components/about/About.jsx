@@ -13,7 +13,7 @@ const About = () => {
 
         <div className="about__data grid">
           <div className="about__info">
-            <p className="about__description">In order to finalize my last year of studies in computer science, <span className='about__important'>I'm looking for an internship or a job starting in March 2023.</span> My aim is to develop my technical and theoretical skills to become an expert in this field. I'm constantly on the lookout for new challenges and I'm very determined and rigorous. I'm keen to learn from professionals.</p>
+            <p className="about__description">In order to finalize my last year of studies in computer science, <span className='about__important'>I'm looking for an internship or a job in IT, starting in March 2023.</span> My aim is to develop my technical and theoretical skills to become an expert in this field. I'm constantly on the lookout for new challenges and I'm very determined and rigorous. I'm keen to learn from professionals.</p>
             <a href="https://google.com" className="btn">My CV</a>
           </div>
 

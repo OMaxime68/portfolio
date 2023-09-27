@@ -25,6 +25,11 @@
     overflow: hidden;
     border-radius: var(--border-radius);
     box-shadow: var(--shadow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
 }
 
 .work__mask {
@@ -69,6 +74,18 @@
     opacity: 0;
 }
 
+.work__desc {
+    color: var(--body-color);
+    font-size: var(--normal-font-size);
+    margin: 0 0 0.98rem;
+    padding: 0 1.25rem;
+    position: absolute;
+    top: 6.75rem;
+    transform: translateY(30px);
+    transition: .3s;
+    opacity: 0;
+}
+
 .work__button {
     color: #fff;
     position: absolute;
@@ -92,6 +109,7 @@
 }
 
 .work__card:hover .work__title,
+.work__card:hover .work__desc,
 .work__card:hover .work__category {
     opacity: 1;
     transform: translateY(0);
