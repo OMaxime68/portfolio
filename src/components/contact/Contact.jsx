@@ -156,9 +156,9 @@ const Contact = () => {
             </div>
 
             <button className="btn" type="submit" disabled={isSubmitting}>
-              {isSubmitting ? (
+              { isSubmitting ? (
                 <>
-                  <span>Sending...</span>
+                  <span style={{ marginRight: '19px' }}>Sending...</span>
                   <i className="fas fa-spinner fa-spin"></i>
                 </>
               ) : (

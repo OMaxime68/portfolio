@@ -6,6 +6,14 @@
     justify-content: center;
 }
 
+.home__img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
 .intro {
     max-width: 540px;
     text-align: center;

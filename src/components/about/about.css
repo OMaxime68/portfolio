@@ -26,6 +26,13 @@
     top: 20%;
 }
 
+.about__img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 .about__description {
     margin-bottom: 1rem;
     text-align: justify;
