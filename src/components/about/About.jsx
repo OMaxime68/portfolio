@@ -1,29 +1,31 @@
-import React from 'react'
-import "./about.css"
-import Me from "../../assets/me-1.jpeg"
-import AboutBox from './AboutBox'
+import React from 'react';
+import "./about.css";
+import Me from "../../assets/test2.jpg";
+import AboutBox from './AboutBox';
+import { useTranslation } from 'react-i18next';
 
 const About = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="about container section" id='about'>
-      <h2 className="section__title">About Me</h2>
+      <h2 className="section__title">{t('about.title')}</h2>
 
       <div className="about__container grid">
         <img src={Me} alt="" className="about__img" />
 
         <div className="about__data grid">
           <div className="about__info">
-            <p className="about__description">In order to finalize my last year of studies in computer science, <span className='about__important'>I am looking for an internship or a job in IT, starting in March 2023.</span> My aim is to develop my technical and theoretical skills to become an expert in this field. I'm constantly on the lookout for new challenges and I'm very determined and rigorous. I'm keen to learn from professionals.</p>
-            <a href="https://google.com" className="btn">My CV</a>
+            <p className="about__description" dangerouslySetInnerHTML={{ __html: t('about.description') }}></p>
+            <a href={t('about.cvLink')} className="btn" target='_blank' rel="noreferrer">{t('about.cvButtonText')}</a>
           </div>
 
           <div className="about__skills grid">
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills__name">Development</h3>
+                <h3 className="skills__name">{t('about.skills.developmentTitle')}</h3>
                 <span className="skills__number">90%</span>
               </div>
-
               <div className="skills__bar">
                 <span className="skills__percentage development"></span>
               </div>
@@ -31,25 +33,24 @@ const About = () => {
 
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills__name">UI/UX Design</h3>
+                <h3 className="skills__name">{t('about.skills.fullstack_webTitle')}</h3>
                 <span className="skills__number">80%</span>
               </div>
-
               <div className="skills__bar">
-                <span className="skills__percentage ui__design"></span>
+                <span className="skills__percentage fullstack_web"></span>
               </div>
             </div>
 
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills__name">AI</h3>
+                <h3 className="skills__name">{t('about.skills.aiTitle')}</h3>
                 <span className="skills__number">70%</span>
               </div>
-
               <div className="skills__bar">
-                <span className="skills__percentage photography"></span>
+                <span className="skills__percentage ai"></span>
               </div>
             </div>
+
           </div>
         </div>
       </div>

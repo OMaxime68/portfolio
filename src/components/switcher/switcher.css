@@ -1,0 +1,21 @@
+.languageSwitcher {
+    position: absolute;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    top: 1.5rem;
+    right: 3rem;
+    z-index: 100;
+}
+
+.languageSwitcher img {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.languageSwitcher img:hover {
+  opacity: 0.8;
+  transition: opacity 0.2s ease-in-out;
+}

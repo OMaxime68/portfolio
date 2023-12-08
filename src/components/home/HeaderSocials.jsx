@@ -1,13 +1,16 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next';
 
 const HeaderSocials = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="home__socials">
         <a href="https://github.com/OMaxime68" className="home__social-link" target='_blank' rel="noreferrer">
         <i class="fa-brands fa-github"></i>
         </a>
 
-        <a href="https://www.linkedin.com/in/maxime-owaller-b366381a3/" className="home__social-link" target='_blank' rel="noreferrer">
+        <a href={t('home.socials.linkedinUrl')} className="home__social-link" target='_blank' rel="noreferrer">
         <i class="fa-brands fa-linkedin"></i>
         </a>
     </div>

@@ -3,8 +3,10 @@ import './contact.css';
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { useTranslation } from 'react-i18next';
 
 const Contact = () => {
+  const { t } = useTranslation();
   const form = useRef();
   const [formData, setFormData] = useState({
     name: '',
@@ -17,7 +19,6 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    // Vérifiez si tous les champs obligatoires sont remplis
     if (!formData.name || !formData.email || !formData.subject || !formData.message) {
       toast.error('Please fill in all required fields.', {
         position: 'top-right',
@@ -36,14 +37,14 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        'service_iiw01nk',
-        'template_osx1qeh',
+        process.env.REACT_APP_EMAILJS_SERVICEID,
+        process.env.REACT_APP_EMAILJS_TEMPLATEID,
         form.current,
-        '1fNp01iIpV6khrGb2'
+        process.env.REACT_APP_EMAILJS_USERID
       )
       .then(
         (result) => {
-          toast.success(`Thank you ${formData.name} ! Your message has been sent. 🚀`, {
+          toast.success(t('contact.form.successMessage', { name: formData.name }), {
             position: 'top-right',
             autoClose: 5000,
             hideProgressBar: false,
@@ -62,7 +63,7 @@ const Contact = () => {
           });
         },
         (error) => {
-          toast.error(`An error occurred while sending your message. Please try again later. 😞`, {
+          toast.error(t('contact.form.errorMessage'), {
             position: 'top-right',
             autoClose: 5000,
             hideProgressBar: false,
@@ -91,12 +92,12 @@ const Contact = () => {
   return (
     <>
       <section className="contact container section" id="contact">
-        <h2 className="section__title">Get In Touch</h2>
+        <h2 className="section__title">{t('contact.title')}</h2>
 
         <div className="contact__container grid">
           <div className="contact__info">
-            <h3 className="contact__title">Let's talk about everything!</h3>
-            <p className="contact__details">Don't like forms?<br></br><br></br>Send me an email at <a href="mailto:maximeowallerpro@gmail.com">maximeowallerpro@gmail.com</a><br></br><br></br>Or give me a call at <a href="tel:+33695598748">+33 6 95 59 87 48</a>. 👋</p>
+            <h3 className="contact__title">{t('contact.info.title')}</h3>
+            <p className="contact__details" dangerouslySetInnerHTML={{ __html: t('contact.info.talkAbout') }}></p>
           </div>
 
           <form ref={form} onSubmit={sendEmail} className="contact__form">
@@ -106,7 +107,7 @@ const Contact = () => {
                   type="text"
                   name="name"
                   className="contact__form-input"
-                  placeholder="Insert your name"
+                  placeholder={t('contact.form.namePlaceholder')}
                   value={formData.name}
                   onChange={handleInputChange}
                   disabled={isSubmitting}
@@ -119,7 +120,7 @@ const Contact = () => {
                   type="email"
                   name="email"
                   className="contact__form-input"
-                  placeholder="Insert your email"
+                  placeholder={t('contact.form.emailPlaceholder')}
                   value={formData.email}
                   onChange={handleInputChange}
                   disabled={isSubmitting}
@@ -133,7 +134,7 @@ const Contact = () => {
                 type="text"
                 name="subject"
                 className="contact__form-input"
-                placeholder="Insert your subject"
+                placeholder={t('contact.form.subjectPlaceholder')}
                 value={formData.subject}
                 onChange={handleInputChange}
                 disabled={isSubmitting}
@@ -147,7 +148,7 @@ const Contact = () => {
                 cols="30"
                 rows="10"
                 className="contact__form-input"
-                placeholder="Write your message"
+                placeholder={t('contact.form.messagePlaceholder')}
                 value={formData.message}
                 onChange={handleInputChange}
                 disabled={isSubmitting}
@@ -156,13 +157,13 @@ const Contact = () => {
             </div>
 
             <button className="btn" type="submit" disabled={isSubmitting}>
-              { isSubmitting ? (
+              {isSubmitting ? (
                 <>
-                  <span style={{ marginRight: '19px' }}>Sending...</span>
+                  <span style={{ marginRight: '19px' }}>{t('contact.form.sendingMessage')}</span>
                   <i className="fas fa-spinner fa-spin"></i>
                 </>
               ) : (
-                'Send Message'
+                t('contact.form.submitButton')
               )}
             </button>
           </form>

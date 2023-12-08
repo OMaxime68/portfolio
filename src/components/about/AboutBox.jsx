@@ -1,6 +1,9 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next';
 
 const AboutBox = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="about__boxes grid">
         <div className="about__box">
@@ -8,7 +11,7 @@ const AboutBox = () => {
 
             <div>
                 <h3 className="about__title">≈ 30</h3>
-                <span className="about__subtitle">Project completed</span>
+                <span className="about__subtitle">{t('about.aboutBox.projectsSubtitle')}</span>
             </div>
         </div>
 
@@ -17,7 +20,7 @@ const AboutBox = () => {
 
             <div>
                 <h3 className="about__title">3648</h3>
-                <span className="about__subtitle">Cup of coffee</span>
+                <span className="about__subtitle">{t('about.aboutBox.coffeeSubtitle')}</span>
             </div>
         </div>
 
@@ -26,7 +29,7 @@ const AboutBox = () => {
 
             <div>
                 <h3 className="about__title">5</h3>
-                <span className="about__subtitle">Satisfied clients</span>
+                <span className="about__subtitle">{t('about.aboutBox.clientsSubtitle')}</span>
             </div>
         </div>
 
@@ -35,7 +38,7 @@ const AboutBox = () => {
 
             <div>
                 <h3 className="about__title">24</h3>
-                <span className="about__subtitle">months work experience</span>
+                <span className="about__subtitle">{t('about.aboutBox.workExperienceSubtitle')}</span>
             </div>
         </div>
     </div>

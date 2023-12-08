@@ -1,6 +1,5 @@
 import React from 'react'
 import "./sidebar.css"
-import Logo from "../../assets/logo.svg";
 import { useState } from 'react';
 
 const Sidebar = () => {

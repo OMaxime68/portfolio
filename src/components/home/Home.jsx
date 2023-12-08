@@ -1,28 +1,31 @@
 import React from 'react';
 import "./home.css";
-import Me from "../../assets/me-1.jpeg";
+import Me from "../../assets/test.jpg";
 import HeaderSocials from "./HeaderSocials";
 import ScrollDown from "./ScrollDown";
 import Shapes from "./Shapes";
+import { useTranslation } from 'react-i18next';
 
 const Home = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="home container" id="home">
       <div className="intro">
-        <img className="home__img" src={Me} alt="Maxime Owaller" />
-        <h1 className="home__name">Maxime Owaller</h1>
-        <span className="home__education">5th year student at Epitech Paris<br></br>Full Stack Developer at Lasa<br></br>Freelance Developer</span>
+        <img className="home__img" src={Me} alt={t('home.intro.name')} />
+        <h1 className="home__name">{t('home.intro.name')}</h1>
+        <span className="home__education" dangerouslySetInnerHTML={{ __html: t('home.intro.education') }} />
 
         <HeaderSocials />
 
-        <a href="#contact" className="btn">Hire Me</a>
+        <a href="#contact" className="btn">{t('home.hireMeButton')}</a>
 
         <ScrollDown />
       </div>
 
       <Shapes />
     </section>
-  )
+  );
 }
 
-export default Home
+export default Home;
