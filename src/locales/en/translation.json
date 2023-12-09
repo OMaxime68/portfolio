@@ -2,7 +2,7 @@
     "home": {
       "intro": {
         "name": "Maxime Owaller",
-        "education": "Final year IT student at Epitech Paris<br/>Full Stack Developer at Lasa<br/>Freelance Developer"
+        "education": "Final year IT student at Epitech Paris<br/>Full Stack Developer at LASA<br/>Freelance Developer"
       },
       "hireMeButton": "Hire Me",
       "socials": {
@@ -13,7 +13,7 @@
     "about": {
         "title": "About Me",
         "description": "In order to finalize my last year of studies in computer science, <span class='about__important'>I am looking for an internship or a job in IT, starting in March 2023.</span> My aim is to develop my technical and theoretical skills to become an expert in this field. I'm constantly on the lookout for new challenges and I'm very determined and rigorous. I'm keen to learn from professionals.",
-        "cvLink": "https://drive.google.com/file/d/1JVZRYT0iYFBBO1BjLJ4N9xkDJELETUrj/view?usp=sharing",
+        "cvLink": "https://drive.google.com/file/d/1RKabR6wDAl04kbDiOUuDWsfMxiVSeIvi/view?usp=sharing",
         "cvButtonText": "My CV",
         "skills": {
             "developmentTitle": "General Development",
@@ -48,7 +48,7 @@
           "freelance": "Freelancer",
           "lasa": "LASA",
           "sncf_reseau": "SNCF Réseau",
-          "privileges_entreprises": "Privileges d'Entreprises"
+          "privileges_entreprises": "Privilèges d'Entreprises"
         },
         "locations": {
           "epitech": "Paris, France 🇫🇷",

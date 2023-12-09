@@ -1,6 +1,6 @@
 import React from 'react';
 import "./about.css";
-import Me from "../../assets/test2.jpg";
+import Profil2 from "../../assets/profiles/profil-2.jpg";
 import AboutBox from './AboutBox';
 import { useTranslation } from 'react-i18next';
 
@@ -12,7 +12,7 @@ const About = () => {
       <h2 className="section__title">{t('about.title')}</h2>
 
       <div className="about__container grid">
-        <img src={Me} alt="" className="about__img" />
+        <img src={Profil2} alt="" className="about__img" />
 
         <div className="about__data grid">
           <div className="about__info">

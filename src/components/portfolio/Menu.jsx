@@ -1,9 +1,9 @@
-import Portfolio from "../../assets/portfolio.jpg"
-import CarRacing from "../../assets/car-racing.jpg"
-import Matchstick from "../../assets/matchstick.png"
-import Dante from "../../assets/maze.jpeg"
-import Navy from "../../assets/navy.png"
-import RPG from "../../assets/rpg.jpeg"
+import Portfolio from "../../assets/works/portfolio.jpg"
+import CarRacing from "../../assets/works/car-racing.jpg"
+import Matchstick from "../../assets/works/matchstick.jpg"
+import Maze from "../../assets/works/maze.jpg"
+import Navy from "../../assets/works/navy.jpg"
+import RPG from "../../assets/works/rpg.jpg"
 
 const Menu = [
     {
@@ -30,7 +30,7 @@ const Menu = [
     {
       id: 4,
       name: "dante",
-      image: Dante,
+      image: Maze,
       category: "software",
       link: 'https://github.com/OMaxime68/CPE_dante_2019',
     },

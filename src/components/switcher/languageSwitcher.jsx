@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import FranceIcon from '../../assets/france.png';
-import EnglishIcon from '../../assets/united-kingdom.png';
+import FranceIcon from '../../assets/flags/france.png';
+import EnglishIcon from '../../assets/flags/united-kingdom.png';
 import './switcher.css';
 
 const LanguageSwitcher = () => {

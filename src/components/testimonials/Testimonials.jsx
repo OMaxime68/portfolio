@@ -1,7 +1,7 @@
 import React from 'react';
 import "./testimonials.css";
-import Image1 from '../../assets/avatar-1.svg';
-import Image3 from '../../assets/avatar-3.svg';
+import Image1 from '../../assets/avatars/avatar-1.svg';
+import Image3 from '../../assets/avatars/avatar-3.svg';
 import { Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
