@@ -81,7 +81,7 @@
 
 .fullstack_web {
     width: 80%;
-    background-color: hwb(353 30% 0%);
+    background-color: hsl(353, 100%, 65%);;
 }
 
 .ai {
