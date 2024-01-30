@@ -60,7 +60,7 @@ const Sidebar = () => {
         </nav>
 
         <div className="nav__footer">
-          <span className="copyright">&#169; 2023 - MO.</span>
+          <span className="copyright">&#169; 2024 - MO.</span>
         </div>
       </aside>
 
