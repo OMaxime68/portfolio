@@ -2,7 +2,7 @@
   "home": {
     "intro": {
       "name": "Maxime Owaller",
-      "education": "Étudiant en fin d'études d'informatique à Epitech Paris<br/>Développeur Full Stack chez LASA<br/>Développeur Freelance"
+      "education": "Étudiant en fin d'études d'informatique à Epitech Paris<br/>Stagiaire Suisse en Data chez Bulgari - Groupe LVMH"
     },
     "hireMeButton": "Contactez-moi",
     "socials": {
@@ -12,13 +12,13 @@
   },
   "about": {
     "title": "À propos",
-    "description": "Afin de finaliser ma dernière année d'études en informatique, <span class='about__important'>je suis à la recherche d'un stage ou d'un emploi en informatique, à partir de mars 2023.</span> Mon objectif est de développer mes compétences techniques et théoriques pour devenir un expert dans ce domaine. Je suis constamment à la recherche de nouveaux défis et je suis très déterminé et rigoureux. Je souhaite apprendre auprès de professionnels.",
+    "description": "Double diplômé en Master d'Intelligence Artificielle et Expert IT, je me qualifie principalement de développeur Web et IA.<br />Mes 30 mois d'expérience professionnelle renforcent mon idée de vouloir exceller dans ce domaine, et plus particulièrement en Data Science. Je souhaite apprendre auprès de professionnels.",
     "cvLink": "https://drive.google.com/file/d/1JVZRYT0iYFBBO1BjLJ4N9xkDJELETUrj/view?usp=sharing",
     "cvButtonText": "Mon CV",
     "skills": {
-      "developmentTitle": "Développement général",
       "fullstack_webTitle": "Web Full Stack",
-      "aiTitle": "Intelligence Artificielle"
+      "aiTitle": "Intelligence Artificielle",
+      "dataTitle": "Data"
     },
     "aboutBox": {
       "projectsSubtitle": "Projets réalisés",
@@ -35,6 +35,7 @@
         "uni_of_kent": "Master of Science (Artificial Intelligence)",
         "camille_see": "Baccaulauréat Scientifique",
 
+        "bulgari": "Stagiaire Suisse en Data",
         "freelance": "Développeur Freelance",
         "lasa": "Développeur Full Stack",
         "sncf_reseau": "Développeur Logiciels",
@@ -45,6 +46,7 @@
         "uni_of_kent": "University of Kent",
         "camille_see": "Lycée Camille Sée",
 
+        "bulgari": "Bulgari - Groupe LVMH",
         "freelance": "Auto-entrepreneur",
         "lasa": "LASA",
         "sncf_reseau": "SNCF Réseau",
@@ -55,6 +57,7 @@
         "uni_of_kent": "Canterbury, Royaume-Uni 🇬🇧",
         "camille_see": "Colmar, France 🇫🇷",
 
+        "bulgari": "Neuchâtel, Suisse 🇨🇭",
         "freelance": "À distance",
         "lasa": "Lyon, France 🇫🇷",
         "sncf_reseau": "Strasbourg, France 🇫🇷",
@@ -65,8 +68,9 @@
         "uni_of_kent": "2022 - 2023",
         "camille_see": "2019",
 
-        "freelance": "depuis 2021",
-        "lasa": "depuis 2023",
+        "bulgari": "2024",
+        "freelance": "2021 - 2024",
+        "lasa": "2023 - 2024",
         "sncf_reseau": "2021 - 2022",
         "privileges_entreprises": "2020"
       },
@@ -74,6 +78,8 @@
         "epitech": "<div><ul class=\"timeline__list\"><li><span class=\"timeline__important\">Obtention du diplôme de licence</span> en 2022</li><li>Compétences avancées en programmation informatique et développement</li><li>Expérience pratique dans la conception et la mise en œuvre de projets en équipe</li><li>Capacité à s'adapter rapidement à de nouvelles technologies et à apprendre en continu</li></ul></div>",
         "uni_of_kent": "<div><ul class=\"timeline__list\"><li><span class=\"timeline__important\">Mémoire</span> \"AirBnB Review Analyser Natural Language Processing\"</li><li>Maîtrise des concepts fondamentaux de l'intelligence artificielle et des techniques avancées de modélisation et de programmation</li><li>Connaissance des domaines clés de l'IA tels que l'apprentissage automatique, le deep learning, le traitement du langage naturel, etc.</li><li>Compétences mathématiques et statistiques pour l'analyse de données et la conception d'algorithmes d'IA</li></ul></div>",
         "camille_see": "",
+
+        "bulgari": "<div><ul class=\"timeline__list\"><li>Développement et mise en œuvre de solutions data pour la croissance de l'entreprise : systèmes de recommandation, analyse de production/ventes, bases de données, apprentissage automatique.</li></ul></div>",
         "freelance": "<div><ul class=\"timeline__list\"><li>Maintenance informatique d'une application web React (depuis 2022)</li><li>Création d'un site web en React pour une pratique de pneumologie (octobre 2021)</li></ul></div>",
         "lasa": "<div><ul class=\"timeline__list\"><li>Participation au développement d'outils internes d'ingénierie acoustique et vibratoire, innovations R&D de LASA, prospection et site web de l'entreprise.</li></ul></div>",
         "sncf_reseau": "<div><ul class=\"timeline__list\"><li>Ajout de fonctionnalités et correction de bugs pour une application interne de gestion de projets utilisant les technologies Microsoft Office 365</li><li>Refonte de l'application en utilisant les technologies SQL et .NET</li></ul></div>",
@@ -84,6 +90,7 @@
         "uni_of_kent": "",
         "camille_see": "",
 
+        "bulgari": "",
         "freelance": "",
         "lasa": "",
         "sncf_reseau": "lettre de recommandation",

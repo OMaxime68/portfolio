@@ -28,7 +28,7 @@ const AboutBox = () => {
             <i className="about__icon icon-people"></i>
 
             <div>
-                <h3 className="about__title">5</h3>
+                <h3 className="about__title">6</h3>
                 <span className="about__subtitle">{t('about.aboutBox.clientsSubtitle')}</span>
             </div>
         </div>
@@ -37,7 +37,7 @@ const AboutBox = () => {
             <i className="about__icon icon-event"></i>
 
             <div>
-                <h3 className="about__title">24</h3>
+                <h3 className="about__title">30</h3>
                 <span className="about__subtitle">{t('about.aboutBox.workExperienceSubtitle')}</span>
             </div>
         </div>

@@ -2,7 +2,7 @@
     "home": {
       "intro": {
         "name": "Maxime Owaller",
-        "education": "Final year IT student at Epitech Paris<br/>Full Stack Developer at LASA<br/>Freelance Developer"
+        "education": "Final year IT student at Epitech Paris<br/>Switzerland Data Intern at Bulgari - LVMH Group"
       },
       "hireMeButton": "Hire Me",
       "socials": {
@@ -12,13 +12,13 @@
     },
     "about": {
         "title": "About Me",
-        "description": "In order to finalize my last year of studies in computer science, <span class='about__important'>I am looking for an internship or a job in IT, starting in March 2023.</span> My aim is to develop my technical and theoretical skills to become an expert in this field. I'm constantly on the lookout for new challenges and I'm very determined and rigorous. I'm keen to learn from professionals.",
+        "description": "With a double Master's degree in Artificial Intelligence and IT Expert, I mainly qualify as a Web and AI developer.<br />My 30 months of professional experience reinforce my idea of wanting to excel in this field, and more specifically in Data Science. I want to learn from professionals.",
         "cvLink": "https://drive.google.com/file/d/1RKabR6wDAl04kbDiOUuDWsfMxiVSeIvi/view?usp=sharing",
         "cvButtonText": "My CV",
         "skills": {
-            "developmentTitle": "General Development",
             "fullstack_webTitle": "Full Stack Web",
-            "aiTitle": "Artificial Intelligence"
+            "aiTitle": "Artificial Intelligence",
+            "dataTitle": "Data"
         },
         "aboutBox": {
             "projectsSubtitle": "Projects completed",
@@ -35,6 +35,7 @@
           "uni_of_kent": "Master of Science (Artificial Intelligence)",
           "camille_see": "Bachelor of Science",
     
+          "bulgari": "Switzerland Data Intern",
           "freelance": "Freelance Developer",
           "lasa": "Full Stack Developer",
           "sncf_reseau": "Software Developer",
@@ -45,6 +46,7 @@
           "uni_of_kent": "University of Kent",
           "camille_see": "Lycée Camille Sée",
     
+          "bulgari": "Bulgari - LVMH Group",
           "freelance": "Freelancer",
           "lasa": "LASA",
           "sncf_reseau": "SNCF Réseau",
@@ -55,6 +57,7 @@
           "uni_of_kent": "Canterbury, United Kingdom 🇬🇧",
           "camille_see": "Colmar, France 🇫🇷",
     
+          "bulgari": "Neuchâtel, Switzerland 🇨🇭",
           "freelance": "Remote",
           "lasa": "Lyon, France 🇫🇷",
           "sncf_reseau": "Strasbourg, France 🇫🇷",
@@ -65,8 +68,9 @@
           "uni_of_kent": "2022 - 2023",
           "camille_see": "2019",
     
-          "freelance": "since 2021",
-          "lasa": "since 2023",
+          "bulgari": "since 2024",
+          "freelance": "2021 - 2024",
+          "lasa": "2023 - 2024",
           "sncf_reseau": "2021 - 2022",
           "privileges_entreprises": "2020"
         },
@@ -75,6 +79,7 @@
           "uni_of_kent": "<div><ul class=\"timeline__list\"><li><span class=\"timeline__important\">Master thesis</span> \"AirBnB Review Analyser Natural Language Processing\"</li><li>Mastery of fundamental concepts of artificial intelligence and advanced modelling and programming techniques</li><li>Knowledge of key areas of AI such as machine learning, deep learning, natural language processing, etc.</li><li>Mathematical and statistical skills for data analysis and AI algorithm design</li></ul></div>",
           "camille_see": "",
   
+          "bulgari": "<div><ul class=\"timeline__list\"><li>Development and implementation of data solutions for business growth: recommendation systems, production/sales analysis, databases, machine learning.</li></ul></div>",
           "freelance": "<div><ul class=\"timeline__list\"><li>Computer maintenance of a React web application (since 2022)</li><li>Creation of a website in React for a pneumology practice (October 2021)</li></ul></div>",
           "lasa": "<div><ul class=\"timeline__list\"><li>Participate in the development of internal acoustic and vibration engineering tools, LASA R&D innovations, prospecting and the company website.</li></ul></div>",
           "sncf_reseau": "<div><ul class=\"timeline__list\"><li>Adding functionality and fixing bugs to an internal project order application using Microsoft Office 365 technologies</li><li>Redesign of the application using SQL and .NET technologies</li></ul></div>",
@@ -85,6 +90,7 @@
           "uni_of_kent": "",
           "camille_see": "",
     
+          "bulgari": "",
           "freelance": "",
           "lasa": "",
           "sncf_reseau": "recommendation letter",

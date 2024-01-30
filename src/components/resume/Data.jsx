@@ -21,20 +21,27 @@ const Data = [
     },
     {
         id: 4,
+        name:"bulgari",
+        category: "experience",
+        icon: "icon-briefcase",
+        skills: ["fa-brands fa-python", "fa-solid fa-database", "fa-brands fa-microsoft"],
+    },
+    {
+        id: 5,
         name:"freelance",
         category: "experience",
         icon: "icon-briefcase",
         skills: ["fa-brands fa-react", "fa-brands fa-html5", "fa-brands fa-css3-alt", "fa-brands fa-js", "fa-brands fa-node", "fa-solid fa-database"],
     },
     {
-        id: 5,
+        id: 6,
         name:"lasa",
         category: "experience",
         icon: "icon-briefcase",
         skills: ["fa-brands fa-python", "fa-solid fa-database"],
     },
     {
-        id: 6,
+        id: 7,
         name:"sncf_reseau",
         category: "experience",
         icon: "icon-briefcase",
@@ -43,7 +50,7 @@ const Data = [
         skills: ["fa-brands fa-microsoft", "fa-solid fa-database"],
     },
     {
-        id: 7,
+        id: 8,
         name:"privileges_entreprises",
         category: "experience",
         icon: "icon-briefcase",

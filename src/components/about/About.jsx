@@ -23,7 +23,7 @@ const About = () => {
           <div className="about__skills grid">
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills__name">{t('about.skills.developmentTitle')}</h3>
+                <h3 className="skills__name">{t('about.skills.fullstack_webTitle')}</h3>
                 <span className="skills__number">90%</span>
               </div>
               <div className="skills__bar">
@@ -33,7 +33,7 @@ const About = () => {
 
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills__name">{t('about.skills.fullstack_webTitle')}</h3>
+                <h3 className="skills__name">{t('about.skills.aiTitle')}</h3>
                 <span className="skills__number">80%</span>
               </div>
               <div className="skills__bar">
@@ -43,7 +43,7 @@ const About = () => {
 
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills__name">{t('about.skills.aiTitle')}</h3>
+                <h3 className="skills__name">{t('about.skills.dataTitle')}</h3>
                 <span className="skills__number">70%</span>
               </div>
               <div className="skills__bar">
