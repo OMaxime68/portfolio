@@ -1,145 +1,145 @@
 {
-    "home": {
-      "intro": {
-        "name": "Maxime Owaller",
-        "education": "Final year IT student at Epitech Paris<br/>Switzerland Data Intern at Bulgari - LVMH Group"
-      },
-      "hireMeButton": "Hire Me",
-      "socials": {
-        "linkedinUrl": "https://www.linkedin.com/in/maxime-owaller-b366381a3/?locale=en_US"
-      },
-      "scrollDown": "Scroll Down"
+  "home": {
+    "intro": {
+      "name": "Maxime Owaller",
+      "education": "Switzerland Data Trainee at Bulgari - LVMH Group<br/>Web & AI Developer"
     },
-    "about": {
-        "title": "About Me",
-        "description": "With a double Master's degree in Artificial Intelligence and IT Expert, I mainly describe myself as a Data/IA-oriented Full Stack developer.<br />My 30 months of professional experience reinforce my idea of wanting to excel in this field, and more specifically in Data Science. I want to learn from professionals.",
-        "cvLink": "https://drive.google.com/file/d/1RKabR6wDAl04kbDiOUuDWsfMxiVSeIvi/view?usp=sharing",
-        "cvButtonText": "My CV",
-        "skills": {
-            "fullstack_webTitle": "Full Stack Web",
-            "aiTitle": "Artificial Intelligence",
-            "dataTitle": "Data"
-        },
-        "aboutBox": {
-            "projectsSubtitle": "Projects completed",
-            "coffeeSubtitle": "Cups of coffee",
-            "clientsSubtitle": "Satisfied clients",
-            "workExperienceSubtitle": "Months work experience"
-        }
+    "hireMeButton": "Hire Me",
+    "socials": {
+      "linkedinUrl": "https://www.linkedin.com/in/maxime-owaller-b366381a3/?locale=en_US"
     },
-    "resume": {
-      "title": "Experiences",
-      "exp": {
-        "titles": {
-          "epitech": "Master Expert IT",
-          "uni_of_kent": "Master of Science (Artificial Intelligence)",
-          "camille_see": "Bachelor of Science",
-    
-          "bulgari": "Switzerland Data Intern",
-          "freelance": "Freelance Developer",
-          "lasa": "Full Stack Developer",
-          "sncf_reseau": "Software Developer",
-          "privileges_entreprises": "Full Stack Developer"
-        },
-        "companies": {
-          "epitech": "Epitech Technology",
-          "uni_of_kent": "University of Kent",
-          "camille_see": "Lycée Camille Sée",
-    
-          "bulgari": "Bulgari - LVMH Group",
-          "freelance": "Freelancer",
-          "lasa": "LASA",
-          "sncf_reseau": "SNCF Réseau",
-          "privileges_entreprises": "Privilèges d'Entreprises"
-        },
-        "locations": {
-          "epitech": "Paris, France 🇫🇷",
-          "uni_of_kent": "Canterbury, United Kingdom 🇬🇧",
-          "camille_see": "Colmar, France 🇫🇷",
-    
-          "bulgari": "Neuchâtel, Switzerland 🇨🇭",
-          "freelance": "Remote",
-          "lasa": "Lyon, France 🇫🇷",
-          "sncf_reseau": "Strasbourg, France 🇫🇷",
-          "privileges_entreprises": "Esch-sur-Alzette, Luxembourg 🇱🇺"
-        },
-        "years": {
-          "epitech": "since 2019",
-          "uni_of_kent": "2022 - 2023",
-          "camille_see": "2019",
-    
-          "bulgari": "since 2024",
-          "freelance": "2021 - 2024",
-          "lasa": "2023 - 2024",
-          "sncf_reseau": "2021 - 2022",
-          "privileges_entreprises": "2020"
-        },
-        "descs": {
-          "epitech": "<div><ul class=\"timeline__list\"><li><span class=\"timeline__important\">Bachelor's degree</span> obtained in 2022</li><li>Advanced computer programming and development skills</li><li>Practical experience in designing and implementing projects in a team environment</li><li>Ability to adapt quickly to new technologies and to learn continuously</li></ul></div>",
-          "uni_of_kent": "<div><ul class=\"timeline__list\"><li><span class=\"timeline__important\">Master thesis</span> \"AirBnB Review Analyser Natural Language Processing\"</li><li>Mastery of fundamental concepts of artificial intelligence and advanced modelling and programming techniques</li><li>Knowledge of key areas of AI such as machine learning, deep learning, natural language processing, etc.</li><li>Mathematical and statistical skills for data analysis and AI algorithm design</li></ul></div>",
-          "camille_see": "",
-  
-          "bulgari": "<div><ul class=\"timeline__list\"><li>Development and implementation of data solutions for business growth: recommendation systems, production/sales analysis, databases, machine learning.</li></ul></div>",
-          "freelance": "<div><ul class=\"timeline__list\"><li>Computer maintenance of a React web application (since 2022)</li><li>Creation of a website in React for a pneumology practice (October 2021)</li></ul></div>",
-          "lasa": "<div><ul class=\"timeline__list\"><li>Participate in the development of internal acoustic and vibration engineering tools, LASA R&D innovations, prospecting and the company website.</li></ul></div>",
-          "sncf_reseau": "<div><ul class=\"timeline__list\"><li>Adding functionality and fixing bugs to an internal project order application using Microsoft Office 365 technologies</li><li>Redesign of the application using SQL and .NET technologies</li></ul></div>",
-          "privileges_entreprises": "<div><ul class=\"timeline__list\"><li>Creation of a website in React</li><li>Development of a dematerialized ticket system in Javascript</li><li>Development of a barcode generator in Javascript</li><li>Development of a newsletter system with Node and MongoDB</li></ul></div>"
-        },
-        "linksTitles": {
-          "epitech": "",
-          "uni_of_kent": "",
-          "camille_see": "",
-    
-          "bulgari": "",
-          "freelance": "",
-          "lasa": "",
-          "sncf_reseau": "recommendation letter",
-          "privileges_entreprises": ""
-        }
-      }
-    },    
-    "portfolio": {
-      "sectionTitle": "Recent Works",
-      "filterLabels": {
-        "everything": "Everything",
-        "web": "Web",
-        "ai": "AI",
-        "software": "Software"
-      },
-      "works": {
-        "titles": {
-          "portfolio": "Portfolio",
-          "car_racing": "Car Racing",
-          "matchstick": "Matchstick",
-          "dante": "Dante",
-          "navy": "Navy",
-          "rpg": "RPG"
-        },
-        "descriptions": {
-          "portfolio": "Landing page made with React 🌐",
-          "car_racing": "Neural Network + Reinforcement learning to drive a car on a road made in python 🏎️",
-          "matchstick": "Nim game made in C 🎲",
-          "dante": "Maze generator and solver made in C 🧩",
-          "navy": "Local multiplayer battleship game made in C 🚢",
-          "rpg": "RPG game made in C 🎮"
-        }
-      }
+    "scrollDown": "Scroll Down"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "With a double Master's degree in Artificial Intelligence and IT Expert, I mainly describe myself as a Web & AI developer.<br />Passionate and rigorous, my aim is to contribute my technical and theoretical skills to a company that makes sense to me. I'm looking for new challenges and I'm very determined. I want to collaborate with professionals.",
+    "cvLink": "https://drive.google.com/file/d/1RKabR6wDAl04kbDiOUuDWsfMxiVSeIvi/view?usp=sharing",
+    "cvButtonText": "My CV",
+    "skills": {
+      "fullstack_webTitle": "Full Stack Web",
+      "aiTitle": "Artificial Intelligence",
+      "dataTitle": "Data"
     },
-    "contact": {
-      "title": "Get In Touch",
-      "info": {
-        "title": "Let's talk about everything !",
-        "talkAbout": "Don't like forms?<br></br>Send me an email at <a href=\"mailto:maximeowallerpro@gmail.com\">maximeowallerpro@gmail.com</a><br></br>Or give me a call at <a href=\"tel:+33695598748\">+33 6 95 59 87 48</a>. 👋"
+    "aboutBox": {
+      "projectsSubtitle": "Projects completed",
+      "coffeeSubtitle": "Cups of coffee",
+      "clientsSubtitle": "Satisfied clients",
+      "workExperienceSubtitle": "Months work experience"
+    }
+  },
+  "resume": {
+    "title": "Experiences",
+    "exp": {
+      "titles": {
+        "epitech": "Master Expert IT",
+        "uni_of_kent": "Master of Science (Artificial Intelligence)",
+        "camille_see": "Bachelor of Science",
+
+        "bulgari": "Switzerland Data Intern",
+        "freelance": "Freelance Developer",
+        "lasa": "Full Stack Developer",
+        "sncf_reseau": "Software Developer",
+        "privileges_entreprises": "Full Stack Developer"
       },
-      "form": {
-        "namePlaceholder": "Insert your name",
-        "emailPlaceholder": "Insert your email",
-        "subjectPlaceholder": "Insert your subject",
-        "messagePlaceholder": "Write your message",
-        "submitButton": "Send Message",
-        "sendingMessage": "Sending...",
-        "successMessage": "Thank you {{name}}! Your message has been sent. 🚀",
-        "errorMessage": "An error occurred while sending your message. Please try again later. 😞"
+      "companies": {
+        "epitech": "Epitech Technology",
+        "uni_of_kent": "University of Kent",
+        "camille_see": "Lycée Camille Sée",
+
+        "bulgari": "Bulgari - LVMH Group",
+        "freelance": "Freelancer",
+        "lasa": "LASA",
+        "sncf_reseau": "SNCF Réseau",
+        "privileges_entreprises": "Privilèges d'Entreprises"
+      },
+      "locations": {
+        "epitech": "Paris, France 🇫🇷",
+        "uni_of_kent": "Canterbury, United Kingdom 🇬🇧",
+        "camille_see": "Colmar, France 🇫🇷",
+
+        "bulgari": "Neuchâtel, Switzerland 🇨🇭",
+        "freelance": "Remote",
+        "lasa": "Lyon, France 🇫🇷",
+        "sncf_reseau": "Strasbourg, France 🇫🇷",
+        "privileges_entreprises": "Esch-sur-Alzette, Luxembourg 🇱🇺"
+      },
+      "years": {
+        "epitech": "since 2019",
+        "uni_of_kent": "2022 - 2023",
+        "camille_see": "2019",
+
+        "bulgari": "since 2024",
+        "freelance": "2021 - 2024",
+        "lasa": "2023 - 2024",
+        "sncf_reseau": "2021 - 2022",
+        "privileges_entreprises": "2020"
+      },
+      "descs": {
+        "epitech": "<div><ul class=\"timeline__list\"><li><span class=\"timeline__important\">Bachelor's degree</span> obtained in 2022</li><li>Advanced computer programming and development skills</li><li>Practical experience in designing and implementing projects in a team environment</li><li>Ability to adapt quickly to new technologies and to learn continuously</li></ul></div>",
+        "uni_of_kent": "<div><ul class=\"timeline__list\"><li><span class=\"timeline__important\">Master thesis</span> \"AirBnB Review Analyser Natural Language Processing\"</li><li>Mastery of fundamental concepts of artificial intelligence and advanced modelling and programming techniques</li><li>Knowledge of key areas of AI such as machine learning, deep learning, natural language processing, etc.</li><li>Mathematical and statistical skills for data analysis and AI algorithm design</li></ul></div>",
+        "camille_see": "",
+
+        "bulgari": "<div><ul class=\"timeline__list\"><li>Development and implementation of data solutions for business growth: recommendation systems, production/sales analysis, databases, machine learning.</li></ul></div>",
+        "freelance": "<div><ul class=\"timeline__list\"><li>Computer maintenance of a React web application (since 2022)</li><li>Creation of a website in React for a pneumology practice (October 2021)</li></ul></div>",
+        "lasa": "<div><ul class=\"timeline__list\"><li>Participate in the development of internal acoustic and vibration engineering tools, LASA R&D innovations, prospecting and the company website.</li></ul></div>",
+        "sncf_reseau": "<div><ul class=\"timeline__list\"><li>Adding functionality and fixing bugs to an internal project order application using Microsoft Office 365 technologies</li><li>Redesign of the application using SQL and .NET technologies</li></ul></div>",
+        "privileges_entreprises": "<div><ul class=\"timeline__list\"><li>Creation of a website in React</li><li>Development of a dematerialized ticket system in Javascript</li><li>Development of a barcode generator in Javascript</li><li>Development of a newsletter system with Node and MongoDB</li></ul></div>"
+      },
+      "linksTitles": {
+        "epitech": "",
+        "uni_of_kent": "",
+        "camille_see": "",
+
+        "bulgari": "",
+        "freelance": "",
+        "lasa": "",
+        "sncf_reseau": "recommendation letter",
+        "privileges_entreprises": ""
       }
     }
+  },
+  "portfolio": {
+    "sectionTitle": "Recent Works",
+    "filterLabels": {
+      "everything": "Everything",
+      "web": "Web",
+      "ai": "AI",
+      "software": "Software"
+    },
+    "works": {
+      "titles": {
+        "portfolio": "Portfolio",
+        "car_racing": "Car Racing",
+        "matchstick": "Matchstick",
+        "dante": "Dante",
+        "navy": "Navy",
+        "rpg": "RPG"
+      },
+      "descriptions": {
+        "portfolio": "Landing page made with React 🌐",
+        "car_racing": "Neural Network + Reinforcement learning to drive a car on a road made in python 🏎️",
+        "matchstick": "Nim game made in C 🎲",
+        "dante": "Maze generator and solver made in C 🧩",
+        "navy": "Local multiplayer battleship game made in C 🚢",
+        "rpg": "RPG game made in C 🎮"
+      }
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "info": {
+      "title": "Let's talk about everything !",
+      "talkAbout": "Don't like forms?<br></br>Send me an email at <a href=\"mailto:maximeowallerpro@gmail.com\">maximeowallerpro@gmail.com</a><br></br>Or give me a call at <a href=\"tel:+33695598748\">+33 6 95 59 87 48</a>. 👋"
+    },
+    "form": {
+      "namePlaceholder": "Insert your name",
+      "emailPlaceholder": "Insert your email",
+      "subjectPlaceholder": "Insert your subject",
+      "messagePlaceholder": "Write your message",
+      "submitButton": "Send Message",
+      "sendingMessage": "Sending...",
+      "successMessage": "Thank you {{name}}! Your message has been sent. 🚀",
+      "errorMessage": "An error occurred while sending your message. Please try again later. 😞"
+    }
+  }
 }

@@ -2,7 +2,7 @@
   "home": {
     "intro": {
       "name": "Maxime Owaller",
-      "education": "Étudiant en fin d'études d'informatique à Epitech Paris<br/>Stagiaire Suisse en Data chez Bulgari - Groupe LVMH"
+      "education": "Switzerland Data Trainee chez Bulgari - Groupe LVMH<br/>Développeur Web & IA"
     },
     "hireMeButton": "Contactez-moi",
     "socials": {
@@ -12,7 +12,7 @@
   },
   "about": {
     "title": "À propos",
-    "description": "Double diplômé en Master d'Intelligence Artificielle et Expert IT, je me qualifie principalement de développeur Full Stack orienté Data/IA<br />Mes 30 mois d'expérience professionnelle renforcent mon idée de vouloir exceller dans ce domaine, et plus particulièrement en Data Science. Je souhaite apprendre auprès de professionnels.",
+    "description": "Double diplômé en Master d'Intelligence Artificielle et Expert IT, je me définis principalement comme un développeur Web & IA.<br />Passionné et rigoureux, mon objectif est d'apporter mes compétences techniques et théoriques à une entreprise qui a du sens pour moi.",
     "cvLink": "https://drive.google.com/file/d/1JVZRYT0iYFBBO1BjLJ4N9xkDJELETUrj/view?usp=sharing",
     "cvButtonText": "Mon CV",
     "skills": {
@@ -84,7 +84,7 @@
         "lasa": "<div><ul class=\"timeline__list\"><li>Participation au développement d'outils internes d'ingénierie acoustique et vibratoire, innovations R&D de LASA, prospection et site web de l'entreprise.</li></ul></div>",
         "sncf_reseau": "<div><ul class=\"timeline__list\"><li>Ajout de fonctionnalités et correction de bugs pour une application interne de gestion de projets utilisant les technologies Microsoft Office 365</li><li>Refonte de l'application en utilisant les technologies SQL et .NET</li></ul></div>",
         "privileges_entreprises": "<div><ul class=\"timeline__list\"><li>Création d'un site web en React</li><li>Développement d'un système de billetterie dématérialisée en Javascript</li><li>Développement d'un générateur de codes-barres en Javascript</li><li>Développement d'un système de newsletter avec Node et MongoDB</li></ul></div>"
-      },      
+      },
       "linksTitles": {
         "epitech": "",
         "uni_of_kent": "",
