@@ -2,7 +2,7 @@
   "home": {
     "intro": {
       "name": "Maxime Owaller",
-      "education": "Switzerland Data Trainee chez Bulgari - Groupe LVMH<br/>Développeur Web & IA"
+      "education": "Développeur Web & IA<br/>En recherche d'opportunités en informatique"
     },
     "hireMeButton": "Contactez-moi",
     "socials": {
@@ -13,7 +13,7 @@
   "about": {
     "title": "À propos",
     "description": "Double diplômé en Master d'Intelligence Artificielle et Expert IT, je me définis principalement comme un développeur Web & IA.<br />Passionné et rigoureux, mon objectif est d'apporter mes compétences techniques et théoriques à une entreprise qui a du sens pour moi.",
-    "cvLink": "https://drive.google.com/file/d/1JVZRYT0iYFBBO1BjLJ4N9xkDJELETUrj/view?usp=sharing",
+    "cvLink": "https://drive.google.com/file/d/1E_gHAE0QgdbD_9uCsCY1muFTPFRFzNL0/view?usp=sharing",
     "cvButtonText": "Mon CV",
     "skills": {
       "fullstack_webTitle": "Web Full Stack",
@@ -64,7 +64,7 @@
         "privileges_entreprises": "Esch-sur-Alzette, Luxembourg 🇱🇺"
       },
       "years": {
-        "epitech": "depuis 2019",
+        "epitech": "2019 - 2024",
         "uni_of_kent": "2022 - 2023",
         "camille_see": "2019",
 
