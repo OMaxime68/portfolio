@@ -108,6 +108,7 @@
     },
     "works": {
       "titles": {
+        "meilleurmood": "Meilleur Mood",
         "portfolio": "Portfolio",
         "car_racing": "Car Racing",
         "matchstick": "Matchstick",
@@ -116,6 +117,7 @@
         "rpg": "RPG"
       },
       "descriptions": {
+        "meilleurmood": "Application web pour visualiser son humeur au fil du temps avec l'IA 📈",
         "portfolio": "Portfolio réalisé avec React 🌐",
         "car_racing": "Réseau neuronal + apprentissage par renforcement pour conduire une voiture sur une route en python 🏎️",
         "matchstick": "Jeu de Nim réalisé en C 🎲",

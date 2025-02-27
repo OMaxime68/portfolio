@@ -108,6 +108,7 @@
     },
     "works": {
       "titles": {
+        "meilleurmood": "Meilleur Mood",
         "portfolio": "Portfolio",
         "car_racing": "Car Racing",
         "matchstick": "Matchstick",
@@ -116,6 +117,7 @@
         "rpg": "RPG"
       },
       "descriptions": {
+        "meilleurmood": "Web application to visualize your mood over time with AI 📈",
         "portfolio": "Landing page made with React 🌐",
         "car_racing": "Neural Network + Reinforcement learning to drive a car on a road made in python 🏎️",
         "matchstick": "Nim game made in C 🎲",
